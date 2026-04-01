@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.card {
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+
+.card h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    margin: 30px;
+
+}
+
+.card__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background-color: gainsboro;
+    margin: 30px;
+    padding: 10px;
+    position: relative;
+    width: auto;
+    height: auto;
+    border: 2px solid transparent;
+
+}
+
+#input {
+    flex: auto;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+#add__button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: rgb(222, 23, 62);
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    width: 100px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#add__button:hover {
+    background-color: rgb(169, 20, 50);
+    cursor: pointer
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+ul li::before {
+    /* 
+    content: "";
+
+    width: 25px;
+    height: 25px;
+
+    background-size: cover;
+    background-position: center;
+    margin: 10px 20px 10px 20px; */
+}
+
+/* ul li input {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border: black
+} */
+
+ul li label {}
+
+/* ul li label::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+} */
+
+
+.li_container:hover {
+    /* border: 1px solid rgb(58, 58, 58); */
+    /* border-radius: 0 0 15px 15px; */
+}
+
+
+
+.radioButton {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border: black;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.task1 {
+    text-decoration: line-through;
+}
+
+
+
+.li_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid transparent;
+
+
+
+}
+
+.remover {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.textfield {
+    border: 1px solid transparent;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* .textfield:hover {
+    border: 1px solid rgb(58, 58, 58);
+
+} */
+
+.buttons__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+
+.edit {
+    width: 20px;
+    height: 20px;
+}
+
+.no-tasks {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px
+}
